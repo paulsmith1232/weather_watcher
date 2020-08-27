@@ -32,7 +32,7 @@ export default class Home extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this)
   }
   isLoading() {
-    const {weatherData, error } = this.state
+    const {weatherData} = this.state
 
     return !weatherData === null && this.state.error === null
   }
@@ -56,7 +56,7 @@ export default class Home extends React.Component {
   }  
 
   render() {
-    const { cityName, weatherData, error } = this.state
+    const { weatherData, error } = this.state
     
     return (
       <React.Fragment>
