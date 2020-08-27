@@ -7,7 +7,7 @@ Type in a city name to get the weather for that location. I will be updating thi
 
 ---
 ###### In action:
-<img src="./weather-watcher/src/images/homePage.png" width="100%" title="Home Page">
+<img src="./src/images/homePage.png" width="100%" title="Home Page">
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
