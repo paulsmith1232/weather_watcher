@@ -65,7 +65,7 @@ body {
 }
 
 .search-label {
-  font-size: 20px;
+  font-size: 24px;
   margin: 5px 0;
   font-weight: 300;
 }
@@ -150,4 +150,10 @@ body {
 .numbers {
   font-size: 20px;
   color: rgba(0, 129, 167)
+}
+
+.error {
+  color: #ff1616;
+  font-size: 20px;
+  margin: 50px 0;
 }

@@ -49,7 +49,7 @@ export default class Home extends React.Component {
         console.warn('Error fetching weather')
 
         this.setState({
-          error: `There was an error fetching the weather for ${this.state.cityName}`
+          error: `There was an error fetching the weather`
         })
       })      
     
@@ -70,7 +70,7 @@ export default class Home extends React.Component {
             
             {this.isLoading() && <Loading text='Poking clouds'/>}
 
-            {error && <p className='center-text'>{error}</p>}
+            {error && <p className='center-text error'>{error}</p>}
 
             {weatherData !== null && error == null && (
               <CurrentWeather 
