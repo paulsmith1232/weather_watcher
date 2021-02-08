@@ -1,13 +1,9 @@
 # weather_watcher
-Simple weather app made using HTML/CSS/React.js and the OpenWeather API.
+Simple weather app made using HTML/CSS/React.js and the OMDb API.
 
-Type in a city name to get the weather for that location. I will be updating this over time to add more features as I learn.
+Type in a movie title to get a list of results. Add those results to a list to be built on the side. Once you have made selections a banner will appear to 'complete' the list
 
-<a href="https://pedantic-curie-e6ce25.netlify.app/" target="_blank" title="Weather App">Live demo!</a>
-
----
-###### In action:
-<img src="./src/images/homePage.png" width="100%" title="Home Page">
+<a href="https://whispering-springs-00287.herokuapp.com/" target="_blank" title="The Shoppies">Live demo!</a>
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
